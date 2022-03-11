@@ -4,13 +4,13 @@ import './style.css';
 class App5 extends React.Component {
   render() {
     var employees = [
-      { empId: 1001, name: 'jack', designation: 'system Engineer' },
-      { empId: 1002, name: 'catherine', designation: 'power programmer' },
-      { empId: 1003, name: 'elle', designation: 'special programmer' },
+      { empId: 1001, name: 'Jack', designation: 'System Engineer' },
+      { empId: 1002, name: 'Jill', designation: 'Power programmer' },
+      { empId: 1003, name: 'Elle', designation: 'Special programmer' },
     ];
     return (
       <React.Fragment>
-        <table style={{ width: 45%' }} className="table">
+        <table style={{ width:'50' }} className="table">
           <thead className="react-thead">
             <tr>
               <th>EmpID</th>
