@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './image/react.PNG';   
-class App3 extends React.Component {
+class Image3 extends React.Component {
       render(){
         return(<React.Fragment>
                   <h3>ReactJS:</h3>
@@ -12,4 +12,4 @@ class App3 extends React.Component {
                 </React.Fragment>);
    	       }
 }
-export default App3;
+export default Image3;

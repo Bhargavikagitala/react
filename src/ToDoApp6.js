@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function App6(){
+function ToDoApp6(){
 
   const defaultTodos = [
     "Complete Spring" ,
@@ -59,4 +59,4 @@ function App6(){
 
 }
 
-export default App6;
+export default ToDoApp6;
