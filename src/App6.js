@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-function TodoApp(){
+function App6(){
 
   const defaultTodos = [
-    "Read book" , "Binge Series"
+    "Complete Spring" ,
   ]
 
   const [todos, setTodos] = React.useState(defaultTodos);
@@ -21,9 +21,10 @@ function TodoApp(){
 
   return(
     <div>
-        Creating a new ToDo App  <br />
+        Creating a New ToDo App!  <br />
+      
 
-        <table style={{ width: '60%' }} className="table" border="1">
+        <table style={{ width: '45%' }} className="table" border="1">
         <thead className="thead-light">
           <tr>
             <th>EmpID</th>            
@@ -58,4 +59,4 @@ function TodoApp(){
 
 }
 
-export default TodoApp;
+export default App6;
