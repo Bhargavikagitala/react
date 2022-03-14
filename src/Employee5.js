@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-class App5 extends React.Component {
+class Employee5 extends React.Component {
   render() {
     var employees = [
       { empId: 1001, name: 'Jack', designation: 'System Engineer' },
@@ -36,4 +36,4 @@ class App5 extends React.Component {
     );
   }
 }
-export default App5;
+export default Employee5;
