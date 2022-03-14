@@ -4,7 +4,7 @@ import React from 'react';
 function ToDoApp6(){
 
   const defaultTodos = [
-    "Complete Spring" ,
+    "Complete Spring" , "Practice Demos" 
   ]
 
   const [todos, setTodos] = React.useState(defaultTodos);
